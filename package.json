@@ -1,6 +1,6 @@
 {
     "author": "kai zhu <kaizhu256@gmail.com>",
-    "description": "#### test coverage for  [flake-idgen (v1.1.0)](https://github.com/T-PWK/flake-idgen)  [![npm package](https://img.shields.io/npm/v/npmtest-flake-idgen.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flake-idgen) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flake-idgen.svg)](https://travis-ci.org/npmtest/node-npmtest-flake-idgen)",
+    "description": "#### basic test coverage for  [flake-idgen (v1.1.0)](https://github.com/T-PWK/flake-idgen)  [![npm package](https://img.shields.io/npm/v/npmtest-flake-idgen.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flake-idgen) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flake-idgen.svg)](https://travis-ci.org/npmtest/node-npmtest-flake-idgen)",
     "devDependencies": {
         "electron-lite": "kaizhu256/node-electron-lite#alpha",
         "flake-idgen": "*",

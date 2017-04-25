@@ -1,6 +1,6 @@
 # npmtest-flake-idgen
 
-#### test coverage for  [flake-idgen (v1.1.0)](https://github.com/T-PWK/flake-idgen)  [![npm package](https://img.shields.io/npm/v/npmtest-flake-idgen.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flake-idgen) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flake-idgen.svg)](https://travis-ci.org/npmtest/node-npmtest-flake-idgen)
+#### basic test coverage for  [flake-idgen (v1.1.0)](https://github.com/T-PWK/flake-idgen)  [![npm package](https://img.shields.io/npm/v/npmtest-flake-idgen.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-flake-idgen) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-flake-idgen.svg)](https://travis-ci.org/npmtest/node-npmtest-flake-idgen)
 
 #### Flake ID generator yields k-ordered, conflict-free ids in a distributed environment
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-flake-idgen/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-flake-idgen/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-flake-idgen/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-flake-idgen/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flake-idgen/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flake-idgen/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-flake-idgen/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-flake-idgen/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-flake-idgen/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-flake-idgen/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-flake-idgen/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-flake-idgen/build/coverage.html/index.html)
 
@@ -82,7 +82,8 @@
     "scripts": {
         "test": "istanbul cover _mocha --report lcovonly"
     },
-    "version": "1.1.0"
+    "version": "1.1.0",
+    "bin": {}
 }
 ```
 
